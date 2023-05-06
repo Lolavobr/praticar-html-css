@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format(opentype);
+   }
+
+   @font-face {
+    font-family: 'bonito';
+    src: url(pacote-projeto-d010/fontes/Bison-Bold/Bison-Bold\(PersonalUse\).ttf);
+   }
+
+   body{margin: 0px; font-family: Arial, Helvetica, sans-serif; font-weight: 100; background-color: #84E1AD;}
+   header {min-width: 320px; background-image: linear-gradient(to bottom, #3CDB83, #195B38); padding-top: 8px; padding-bottom: 10px; box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.301);}
+   h1#Curiosidades {padding-bottom: 10px; text-align: center; font-family: 'bonito'; font-size: 3em; font-weight: normal; color: white;} 
+   p#tudo { width: 380px; margin: 0 auto; padding-bottom: 20px; font-weight: 100; text-align: center; color: white;}
+   nav {padding-left: 15px;}
+   nav :hover {background-color: #3CDB83;}
+   .link {padding-right: 10px; color: #8fe9b7; text-decoration: none;}
+
+   main {min-width: 320px; max-width: 920px; margin: 0 auto; margin-top: -21px; padding-bottom: 30px; border-radius: 0px 0px 8px 8px; background-color: white; box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.281);}
+   h1#historia {margin-left: 15px; padding-top: 30px; font-family: 'droid'; color: #20613E;}
+   .subt {margin-left: 15px; padding-left: 10px; font-family: 'droid'; font-weight: normal; background-image: linear-gradient(to right, #b7ddc7, white); color: #20613E;}
+   p {margin-left: 15px; margin-right: 15px; text-indent: 28px;}
+   .palavra {font-weight: 900; color: #195B38; text-decoration: none;}
+   .linked{  background-color:#b7ddc7}
+   .centr {display: block; text-align: center}
+   .auto {width: 100%;}
+   div#vid {background-color: #195B38; padding-top: 24px; padding-bottom: 24px;}
+
+   aside { margin: 0 auto; max-width: 880px; min-width: 320px ; padding-bottom: 5px; border-radius: 10px; background-color: #C5EBD6;}
+   h3#extra{ padding-top: 10px; padding-bottom: 10px; text-indent: 10px; border-radius: 10px 10px 0px 0px; background-color: #2FA866; color: white;}
+   .lista{display: inline-block; margin-right: 230px; list-style-type: '\2713';}
+
+   footer { margin-bottom: -16px; text-align: center; background-color: #1A5C38; box-shadow: 0px -2px 1px 0px rgba(0, 0, 0, 0.253);}
+   .final { padding-top: 5px; padding-bottom: 5px; color: #84a090;}
+   .destaque {color: #C5EBD6;}

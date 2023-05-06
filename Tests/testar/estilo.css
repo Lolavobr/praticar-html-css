@@ -1,0 +1,7 @@
+body {font-size: 1em;}
+
+h1 {color: greenyellow; font-family: sans-serif;}
+
+h1#rei {color: red; box-shadow: -10px 10px 10px grey; text-shadow: 10px 5px 0px grey; text-align: center;}
+
+.princ {color: orange;}

@@ -1,0 +1,13 @@
+ body {background-color: rgb(32, 32, 32);}
+ 
+ h1 {background-color: gray; width: 300px; text-align: center; margin-top: 98px; margin: auto; border-width: 2px; border-style: solid; border-color: rgb(255, 62, 62);}
+
+ h2 { background-color: rgb(128, 128, 128); text-align: center; margin-top: 100px; border-width: 2px; border-style: solid; border-color: rgb(248, 246, 106);}
+
+ p {background-color: gray;}
+
+ span {background-color: gray}
+
+ h3 {width: 400px; margin: auto;  margin-top: 200px; text-align: center; color: aquamarine; border-width: 4px; border-style: solid; border-color: aquamarine;}
+
+

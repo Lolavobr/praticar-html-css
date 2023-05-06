@@ -1,0 +1,41 @@
+body {background-color: rgb(245, 245, 245); margin: auto; font-family: Arial, Helvetica, sans-serif;}
+
+h1#loja {display: inline-block; text-align: center; padding: 0px 20px 0px 20px; margin-left: 80px ; margin-bottom: 2px; border-radius: 6px 6px 6px 6px; background-color: rgb(226, 226, 226);}
+
+nav {margin-bottom: 30px;}
+nav {background-color: rgb(201, 201, 201);} 
+span#cima{background-color: rgb(75, 75, 75); display: block; text-align: end; padding-right: 10px;}
+.abacima {display: inline;}
+a { color: white;} 
+
+span#subnav { display:block; text-align: center; padding-bottom: 4px;} 
+ div#serviços {display: inline; background-color: rgb(224, 224, 224); box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.342);}
+
+ .subbot {margin-right: 10px;
+          margin-left: 10px; 
+          text-decoration:none;
+          text-shadow: 1px 1px rgb(7, 7, 7);}
+
+h1#populares {background-color: yellow; text-align: center; margin-bottom: 80px;}
+
+span#centralizar {display: block; text-align: center; background-color: rgb(0, 0, 0); margin-bottom: 20px;}
+h1#populares {width: 420px; display: inline; background-color: red;}
+
+
+div#imgs {text-align: center; height: 148.66px;}
+
+img {width: 100px; }
+img {display: inline; margin-left: 7.1px; }
+
+div#produtos {text-align: center; font-size: 0.8em;}
+
+.produto { width: 100px; margin-top: -8px; margin-left: 8px; display: inline-block; text-align: center;}
+
+ .produto {background-color: rgb(212, 212, 212);}
+
+
+footer {background-color: rgb(73, 73, 73);}
+footer {height: 50px;}
+p#ltda { color: white; background-color: rgb(196, 196, 196);}
+
+p#ltda {text-align: center;}
