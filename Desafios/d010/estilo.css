@@ -26,8 +26,9 @@
    .linked{  background-color:#b7ddc7}
    .centr {display: block; text-align: center}
    .auto {width: 100%;}
-   div#vid {padding-top: 24px; padding-bottom: 50%; position: relative;background-color: #195B38;}
-   div#vid > iframe {position: absolute; top:5% ; left:5% ; height:90%  ;width:90% ;}
+
+   div#vid {padding: 20px; padding-bottom: 50%; position: relative;background-color: #195B38;}
+   div#vid > iframe{position: absolute; top:5% ; left:5% ; height:90% ;width:90%;}
 
    aside { margin: 0 auto; max-width: 880px; min-width: 320px ; padding-bottom: 5px; border-radius: 10px; background-color: #C5EBD6;}
    h3#extra{ padding-top: 10px; padding-bottom: 10px; text-indent: 10px; border-radius: 10px 10px 0px 0px; background-color: #2FA866; color: white;}
