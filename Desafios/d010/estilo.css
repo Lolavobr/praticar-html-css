@@ -10,7 +10,7 @@
     src: url(pacote-projeto-d010/fontes/Bison-Bold/Bison-Bold\(PersonalUse\).ttf);
    }
 
-   body{margin: 0px; font-family: Arial, Helvetica, sans-serif; font-weight: 100; background-color: #84E1AD;}
+   body{margin: 0px; font-family: Arial, Helvetica, sans-serif; font-weight: 600; background-color: #84E1AD;}
    header {min-width: 320px; background-image: linear-gradient(to bottom, #3CDB83, #195B38); padding-top: 8px; padding-bottom: 10px; box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.301);}
    h1#Curiosidades {padding-bottom: 10px; text-align: center; font-family: 'bonito'; font-size: 3em; font-weight: normal; color: white;} 
    p#tudo { width: 380px; margin: 0 auto; padding-bottom: 20px; font-weight: 100; text-align: center; color: white;}
