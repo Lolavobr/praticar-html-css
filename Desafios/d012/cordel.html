@@ -6,15 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-          body {margin: auto;}
-          header {height: 200px; position: relative; background-color: black;}
-          div#conteudo { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0;}
-          div#conteudo h1{color: white; margin: 0;}
-          div#conteudo a {text-decoration: none; color: white; margin-left: 60px;}
+          @font-face {
+            font-family: 'título';
+            src: url(Pacote-cordel/fonts/frostgiant.ttf)
+            format('truetype');}
 
-          main {max-width: 400px;}
-          section {}
-          footer {margin: auto; margin-bottom: -20px; text-align: center; background-color: gray;}
+          @font-face {
+            font-family: 'padrão';
+            src: url(Pacote-cordel/fonts/);
+          }  
+         html, body {margin: auto; min-height: 100vh; background-color: gray;}
+
+          header {height: 200px; position: relative; background-color: black; margin-bottom: 20px;}
+          div#conteudo { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: 0;}
+          
+          h1 {font-family: 'título'; font-weight: 100; font-size: 4em; font-variant: small-caps;}
+          div#conteudo h1{color: white; margin: 0;}
+          div#conteudo p {margin: auto; margin-top: 10px; text-align: center; padding: auto; color: white; }
+          div#conteudo a {margin-top: 10px; text-decoration: none; color: white;}
+          div#conteudo a:hover {text-decoration: underline;}
+          main {}
+
+          section {padding-left: 30px ;padding-top: 10vh; padding-bottom: 10vh; margin-top: -20px; margin-bottom: -20px; line-height: 2em;}
+          .normal {background-color: white;}
+          .fundo {background-size: cover; background-position: center center;}
+          .fundo p {background-color: rgba(0, 0, 0, 0.363); width: 400px;}
+          section#fundo1 {background-image: url(Pacote-cordel/imagens/background001.jpg);}
+          section#fundo2 {background-image: url(Pacote-cordel/imagens/background002.jpg);}
+
+          footer {margin: auto; margin-bottom: -20px; text-align: center; background-color: rgb(0, 0, 0); color: white;}
+          footer a {text-decoration: none; color: white;}
+          footer a:hover {text-decoration: underline;}
     </style>
 </head>
 <body>
@@ -22,12 +44,15 @@
     <header>
         <div id="conteudo">
             <h1>Cordel Moderno</h1>
-            <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Por Milton Duarte</a>
+            <p>
+                
+               Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank"> Milton Duarte</a>
+             </p>  
         </div>
     </header>
 
     <main>
-        <section>
+        <section class="normal">
             <p>
                 Estou ficando cansado <br>
                 Da tal tecnologia <br>
@@ -35,11 +60,11 @@
                 Mensagem curta e fria <br>
                 Twitter e Facebook <br>
                 Antes que eu caduque <br>
-                Vou dizer tudo em poesia. <br>
+                Vou dizer tudo em poesia.<br>
             </p>
         </section>
         
-        <section>
+        <section class="fundo" id="fundo1">
             <p>
                 Não é mais como era antes <br>
                 É tudo abreviado <br>
@@ -51,7 +76,7 @@
             </p>
         </section>
         
-        <section>
+        <section class="normal">
             <p>
                 Arroba agora não pesa <br>
                 É parte de um endereço <br>
@@ -73,7 +98,7 @@
             </p>
         </section>
         
-        <section>
+        <section class="fundo" id="fundo2">
             <p>
                 Tenho saudade das cartas <br>
                 Escritas com a própria mão <br>
@@ -85,7 +110,7 @@
             </p>
         </section>
         
-        <section>
+        <section class="normal">
             
             <p>
                 Agora, escrevo e envio <br>
