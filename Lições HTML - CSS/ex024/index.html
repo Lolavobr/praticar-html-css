@@ -5,211 +5,230 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Países América Latina</title>
+    <style>
+        body {margin: auto;}
+        header {}
+        h1 {margin: auto; margin-top: 40px; margin-bottom: 40px; text-align: center; background-color: yellow;}
+        main {background-color: gray;}
+        table {border-collapse: collapse; margin: auto; background-color: white; position: relative;}
+        caption {padding: 10px 0px 10px 0px;}
+        thead > tr > th {position: sticky; top: -1px; background-color: rgb(167, 167, 167);}
+        tbody > tr:nth-child(2n) {background-color: lightgray;}
+        tr {}
+        tr#total {background-color: yellow;}
+        td {border: 1px solid black; padding: 4px;}
+        th {border: 1px solid black;}
+    </style>
 </head>
 <body>
-    <h1>Tabelas Grandes e Divs</h1>
+
+    <header>
+        <h1>Tabelas Grandes e Divs</h1>
+    </header>
     <!-- Thead, Tbody, Tfoot-->
-  <table>
-        <thead>
-            <tr>
-                <th>Países</th>
-                <th>População</th>
-                <th>Área</th>
-                <th>Densidade Demográfica</th>
-            </tr>
-        </thead>
 
-        <tbody>
-            <tr>
-                <td>Brasil</td>
-                <td>220mi</td>
-                <td> 8.000.000km2</td>
-                <td>24,88hab km2</td>
-            </tr>
-            <tr>
-                <td>México</td>
-                <td>130.262.000</td>
-                <td> </td>
-                <td>67 hab./km²</td>
-            </tr>
-            <tr>
-                <td>Colômbia</td>
-                <td>50,882,891</td>
-                <td></td>
-                <td>40,6 741 hab./km²</td>
-            </tr>
-            <tr>
-                <td>Argentina</td>
-                <td>45,195,774</td>
-                <td></td>
-                <td>16 habitantes/quilômetro quadrado</td>
-            </tr>
-            <tr>
-                <td>Peru</td>
-                <td>33,050,325</td>
-                <td></td>
-                <td>22,5 habitantes/quilômetro quadrado</td>
-            </tr>
-            <tr>
-                <td>Venezuela</td>
-                <td>28,435,940</td>
-                <td></td>
-                <td>31,3 hab/km²</td>
-            </tr>
-            <tr>
-                <td>Chile</td>
-                <td>19,116,201</td>
-                <td></td>
-                <td>22,4 hab/km²</td>
-            </tr>
-            <tr>
-                <td>Guatemala</td>
-                <td>17 915 568</td>
-                <td></td>
-                <td>128,8 habitantes por quilômetro quadrado</td>
-            </tr>
-            <tr>
-                <td>Equador</td>
-                <td>17,643,054</td>
-                <td></td>
-                <td>48 habitantes por quilômetro quadrado</td>
-            </tr>
-            <tr>
-                <td>Bolívia</td>
-                <td>11,673,021</td>
-                <td></td>
-                <td>9 hab/km²</td>
-            </tr>
-            <tr>
-                <td> Haiti</td>
-                <td>11 402 528</td>
-                <td></td>
-                <td>361,5 hab/km²</td>
-            </tr>
-            <tr>
-                <td> Cuba</td>
-                <td>11 326 616</td>
-                <td></td>
-                <td>102 habitantes por km2</td>
-            </tr>
-            <tr>
-                <td>República Dominicana</td>
-                <td>10 847 910</td>
-                <td></td>
-                <td>226,7 hab./km²</td>
-            </tr>
-            <tr>
-                <td>Honduras</td>
-                <td>9 904 607</td>
-                <td></td>
-                <td>68 pessoas por km²</td>
-            </tr>
-            <tr>
-                <td>Paraguai</td>
-                <td>7,132,538</td>
-                <td></td>
-                <td>15 habitantes por quilômetro quadrado</td>
-            </tr>
-            <tr>
-                <td> Nicarágua</td>
-                <td>6 624 554</td>
-                <td></td>
-                <td>44,7 hab./km²</td>
-            </tr>
-            <tr>
-                <td>El Salvador</td>
-                <td>6 486 205</td>
-                <td></td>
-                <td>292 hab/km²</td>
-            </tr>
-            <tr>
-                <td>Costa Rica</td>
-                <td>5 094 118</td>
-                <td></td>
-                <td>3,67 hab/km²</td>
-            </tr>
-            <tr>
-                <td>Panamá</td>
-                <td>4 314 767</td>
-                <td></td>
-                <td>45,7 hab/km²</td>
-            </tr>
-            <tr>
-                <td>Uruguai</td>
-                <td>3,473,730</td>
-                <td></td>
-                <td>19,8 hab./km²</td>
-            </tr>
-            <tr>
-                <td>Jamaica</td>
-                <td>2 961 167</td>
-                <td></td>
-                <td>248,4 hab./km²</td>
-            </tr>
-            <tr>
-                <td>Porto Rico</td>
-                <td>2 860 853</td>
-                <td></td>
-                <td>11,62 hab/km²</td>
-            </tr>
-            <tr>
-                <td>Trinidad e Tobago</td>
-                <td>1 399 488</td>
-                <td></td>
-                <td>261 hab/km²</td>
-            </tr>
-            <tr>
-                <td>Guiana</td>
-                <td>786,552</td>
-                <td></td>
-                <td>3,5 hab./km²</td>
-            </tr>
-            <tr>
-                <td>Suriname</td>
-                <td>588,552</td>
-                <td></td>
-                <td>3 habitantes por quilômetro quadrado</td>
-            </tr>
-            <tr>
-                <td>Guadalupe</td>
-                <td>400 124</td>
-                <td></td>
-                <td>10,3 habitantes por km²</td>
-            </tr>
-            <tr>
-                <td>Belize</td>
-                <td>397 628</td>
-                <td></td>
-                <td>12 hab/km²</td>
-            </tr>
-            <tr>
-                <td>Bahamas</td>
-                <td>393 244</td>
-                <td></td>
-                <td>25 hab./km²</td>
-            </tr>
-            <tr>
-                <td>Martinica</td>
-                <td>375 265</td>
-                <td></td>
-                <td>349 hab. /km2</td>
-            </tr>
-            <tr>
-                <td>Guiana Francesa</td>
-                <td>298,682</td>
-                <td></td>
-                <td>2,7 hab./km²</td>
-            </tr>
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td>33 Países</td>
-                <td> 659.744.000 habitantes</td>
-                <td>19.200.000 km²</td>
-                <td>32,8 hab./km²</td>
-            </tr>
-        </tfoot>
-   </table>
+  <main>
+      <table>
+        <caption>Países da América Latina</caption>
+            <thead>
+                <tr>
+                    <th>Países</th>
+                    <th>População</th>
+                    <th>Área Territorial</th>
+                    <th>Densidade Demográfica</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Brasil</td>
+                    <td>213,317,639</td>
+                    <td>8 515 770km²</td>
+                    <td>24,88 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>México</td>
+                    <td>130,262,000</td>
+                    <td>1 964 375km²</td>
+                    <td>67 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Colômbia</td>
+                    <td>50,882,891</td>
+                    <td>1 140 970km²</td>
+                    <td>40,6 741 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Argentina</td>
+                    <td>45,195,774</td>
+                    <td>2 780 400km²</td>
+                    <td>16 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Peru</td>
+                    <td>33,050,325</td>
+                    <td>1 285 216km²</td>
+                    <td>22,5 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Venezuela</td>
+                    <td>28,435,940</td>
+                    <td>912 050km²</td>
+                    <td>31,3 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Chile</td>
+                    <td>19,116,201</td>
+                    <td>756 102km²</td>
+                    <td>22,4 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Guatemala</td>
+                    <td>17,915,568</td>
+                    <td>108 889km²</td>
+                    <td>128,8 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Equador</td>
+                    <td>17,643,054</td>
+                    <td>283 561km²</td>
+                    <td>48 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Bolívia</td>
+                    <td>11,673,021</td>
+                    <td>1 098 581km²</td>
+                    <td>9 hab./km²</td>
+                </tr>
+                <tr>
+                    <td> Haiti</td>
+                    <td>11,402,528</td>
+                    <td>27 750km²</td>
+                    <td>361,5 hab./km²</td>
+                </tr>
+                <tr>
+                    <td> Cuba</td>
+                    <td>11,326,616</td>
+                    <td>110 860km²</td>
+                    <td>102 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>República Dominicana</td>
+                    <td>10,847,910</td>
+                    <td>48 670km²</td>
+                    <td>226,7 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Honduras</td>
+                    <td>9,904,607</td>
+                    <td>112 090km²</td>
+                    <td>68 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Paraguai</td>
+                    <td>7,132,538</td>
+                    <td>406 752km²</td>
+                    <td>15 hab./km²</td>
+                </tr>
+                <tr>
+                    <td> Nicarágua</td>
+                    <td>6,624,554</td>
+                    <td>130 370km²</td>
+                    <td>44,7 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>El Salvador</td>
+                    <td>6,486,205</td>
+                    <td>21 041km²</td>
+                    <td>292 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Costa Rica</td>
+                    <td>5,094,118</td>
+                    <td>51 100km²</td>
+                    <td>3,67 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Panamá</td>
+                    <td>4,314,767</td>
+                    <td>75 420km²</td>
+                    <td>45,7 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Uruguai</td>
+                    <td>3,473,730</td>
+                    <td>176 215km²</td>
+                    <td>19,8 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Jamaica</td>
+                    <td>2,961,167</td>
+                    <td>10 991km²</td>
+                    <td>248,4 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Porto Rico</td>
+                    <td>2,860,853</td>
+                    <td>9 104km²</td>
+                    <td>11,62 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Trinidad e Tobago</td>
+                    <td>1,399,488</td>
+                    <td>5 128km²</td>
+                    <td>261 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Guiana</td>
+                    <td>786,552</td>
+                    <td>214 969km²</td>
+                    <td>3,5 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Suriname</td>
+                    <td>588,552</td>
+                    <td>163 820km²</td>
+                    <td>3 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Guadalupe</td>
+                    <td>400,124</td>
+                    <td>1 628km²</td>
+                    <td>10,3 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Belize</td>
+                    <td>397,628</td>
+                    <td>22 966km²</td>
+                    <td>12 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Bahamas</td>
+                    <td>393,244</td>
+                    <td>13 880km²</td>
+                    <td>25 hab./km²</td>
+                </tr>
+                <tr>
+                    <td>Martinica</td>
+                    <td>375,265</td>
+                    <td>1 100km²</td>
+                    <td>349 hab./km2</td>
+                </tr>
+                <tr>
+                    <td>Guiana Francesa</td>
+                    <td>298,682</td>
+                    <td>91 000km²</td>
+                    <td>2,7 hab./km²</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr id="total">
+                    <td>30 Países</td>
+                    <td> 659,744,000 habitantes</td>
+                    <td>19.200.000 km²</td>
+                    <td>32,8 hab./km²</td>
+                </tr>
+            </tfoot>
+       </table>
+  </main>
 </body>
 </html>
